@@ -23,5 +23,10 @@
     return [self performTarget:@"A" action:@"Category_ViewController" params:params shouldCacheTarget:NO];
 }
 
+- (UIViewController *)A_aViewControllerWithParams:(NSDictionary *)params {
+    
+    return [self performTarget:@"A" action:@"Category_ViewController" params:params shouldCacheTarget:NO];
+}
+
 
 @end
