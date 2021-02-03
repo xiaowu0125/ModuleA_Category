@@ -16,7 +16,7 @@
     return [self performTarget:@"A" action:@"viewController" params:nil shouldCacheTarget:NO];
 }
 
-- (UIViewController *)A_Category_Objc_ViewControllerWithCallback:(void (^)(NSString *))callback {
+- (UIViewController *)A_Category_Objc_ViewControllerWithCallback:(void (^)(id params))callback {
     
     NSMutableDictionary *params = [[NSMutableDictionary alloc] init];
     params[@"callback"] = callback;
